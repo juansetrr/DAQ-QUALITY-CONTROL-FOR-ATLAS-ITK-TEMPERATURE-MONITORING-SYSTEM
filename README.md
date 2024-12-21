@@ -1,6 +1,7 @@
 Esta carpeta de proyecto es el software desarrollado para el control de calidad de las tarjetas DAQ ELMB del sistema de monitoreo de temperatura ATKLAS-ITK
 
 -La carpeta consta de lo siguiente:
+
 fase1.py --> (Modo barrido de voltaje) recopila datos del elmb a través de sistema de suscripción utilizando el ELMB OPC CLIENT y exportando los datos en un formato pkl
 fase2.py --> (Modo barrido de voltaje) hace el procesamiento de los datos provenientes de la fase 1
 interfaz_grafico.py -->(Modo barrido de voltaje) es el front end que se encarga de generar la interfaz gráfica para interactuar con los datos de la prueba
